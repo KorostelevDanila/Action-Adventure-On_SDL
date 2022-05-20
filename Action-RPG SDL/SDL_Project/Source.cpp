@@ -15,7 +15,7 @@ int main(int args, char* argc[]) {
 
 	ttf_init();
 	TTF_Font* mainFont = NULL;
-	mainFont = TTF_OpenFont("Game Files//pixelcyr_normal.ttf", 100);
+	mainFont = TTF_OpenFont("Game Files//pixelcyr_normal.ttf", 50);
 
 	textureInitialize();
 
@@ -528,22 +528,22 @@ int main(int args, char* argc[]) {
 
 			SDL_RenderCopy(Main_Renderer, Interface, NULL, &InterfaceRect);
 
-			_itoa_s(Player.Lives, PlayerLivesText, 8);
+			_itoa_s(Player.Lives, PlayerLivesText, 10);
 			SDL_DestroyTexture(PlayerLivesTexture);
 			PlayerLivesTexture = getTextTexture(&Main_Renderer, PlayerLivesText, mainFont);
 			textDraw(&Main_Renderer, PlayerLivesRect, PlayerLivesTexture);
 
-			_itoa_s(Player.Bombs, PlayerBombsText, 8);
+			_itoa_s(Player.Bombs, PlayerBombsText, 10);
 			SDL_DestroyTexture(PlayerBombsTexture);
 			PlayerBombsTexture = getTextTexture(&Main_Renderer, PlayerBombsText, mainFont);
 			textDraw(&Main_Renderer, PlayerBombsRect, PlayerBombsTexture);
 
-			_itoa_s(Player.Arrows, PlayerArrowsText, 8);
+			_itoa_s(Player.Arrows, PlayerArrowsText, 10);
 			SDL_DestroyTexture(PlayerArrowsTexture);
 			PlayerArrowsTexture = getTextTexture(&Main_Renderer, PlayerArrowsText, mainFont);
 			textDraw(&Main_Renderer, PlayerArrowsRect, PlayerArrowsTexture);
 
-			_itoa_s(Player.Coins, PlayerCoinsText, 8);
+			_itoa_s(Player.Coins, PlayerCoinsText, 10);
 			SDL_DestroyTexture(PlayerCoinsTexture);
 			PlayerCoinsTexture = getTextTexture(&Main_Renderer, PlayerCoinsText, mainFont);
 			textDraw(&Main_Renderer, PlayerCoinsRect, PlayerCoinsTexture);
