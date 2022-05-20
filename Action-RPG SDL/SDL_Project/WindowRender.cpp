@@ -11,7 +11,7 @@ void WindowAndRendererCreating(SDL_Window** Window, SDL_Renderer** Renderer)
 		exit(1);
 	}
 	else {
-		*Window = SDL_CreateWindow("Shin Obama Tensei", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WINDOW_WEIDTH, WINDOW_HEIGHT,SDL_WINDOW_SHOWN);
+		*Window = SDL_CreateWindow("Action-Adventure", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WINDOW_WEIDTH, WINDOW_HEIGHT,SDL_WINDOW_SHOWN);
 		if (Window == NULL) {
 			cout << "The problem occured during window creating. SDL Error code: " << SDL_GetError();
 			exit(1);
