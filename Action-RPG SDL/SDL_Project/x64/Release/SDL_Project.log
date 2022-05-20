@@ -1,0 +1,17 @@
+﻿  Enemies.cpp
+  MainHero.cpp
+  Map.cpp
+  Menu.cpp
+  Music.cpp
+  Source.cpp
+C:\Users\diota\Desktop\Projects\Action-RPG SDL\SDL_Project\Source.cpp(5,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\diota\Desktop\Projects\Action-RPG SDL\SDL_Project\Source.cpp(131,17): warning C4101: CaveExitY: неиспользованная локальная переменная
+C:\Users\diota\Desktop\Projects\Action-RPG SDL\SDL_Project\Source.cpp(131,6): warning C4101: CaveExitX: неиспользованная локальная переменная
+  Text.cpp
+  TextureRender.cpp
+  WindowRender.cpp
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 194 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  SDL_Project.vcxproj -> C:\Users\diota\Desktop\Projects\Action-RPG SDL\x64\Release\Action-RPG on SDL.exe

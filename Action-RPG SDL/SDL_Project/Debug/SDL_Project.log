@@ -1,0 +1,5 @@
+﻿  Map.cpp
+  Source.cpp
+C:\Users\diota\Desktop\Projects\Action-RPG SDL\SDL_Project\Source.cpp(5,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+  SDL_Project.vcxproj -> C:\Users\diota\Desktop\Projects\Action-RPG SDL\Debug\Action-RPG on SDL.exe
