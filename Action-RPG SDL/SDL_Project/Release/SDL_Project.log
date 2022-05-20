@@ -1,9 +1,8 @@
-﻿  Source.cpp
-C:\Users\diota\Desktop\Projects\Action-RPG SDL\SDL_Project\Source.cpp(8,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+﻿  Map.cpp
 LINK : warning LNK4075: не учитывается "/INCREMENTAL" из-за спецификации "/LTCG"
   Создание кода
   2 of 195 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
-  SDL_Project.vcxproj -> C:\Users\diota\Desktop\Projects\Action-RPG SDL\Release\Action-RPG on SDL.exe
+  SDL_Project.vcxproj -> C:\Users\diota\Documents\Action-Adventure-On_SDL\Action-RPG SDL\Release\Action-RPG on SDL.exe

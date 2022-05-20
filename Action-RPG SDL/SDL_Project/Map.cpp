@@ -96,7 +96,7 @@ bool SwitchMap(Entity& Player, int& MapX, int& MapY)
 	return false;
 }
 
-void DisplayMap(Map& Map, MapTexture& Textures, /*Entity Enemies[]*/ SDL_Renderer** Renderer)
+void DisplayMap(Map& Map, MapTexture& Textures, SDL_Renderer** Renderer)
 {
 	int textureType = 0, enemyCounter = 0;
 
@@ -152,6 +152,7 @@ void DisplayMap(Map& Map, MapTexture& Textures, /*Entity Enemies[]*/ SDL_Rendere
 				Map.LegacyDungeonRect.w = Map.LegacyDungeonRect.h = 64;
 			}; break;
 			case 7: {
+				TextureCopy(Renderer, (j * 64), (i * 64), &Textures.Floor);
 				TextureCopy(Renderer, j * 64, i * 64, &Textures.Button);
 				Map.buttonRect.x = j * 64;
 				Map.buttonRect.y = i * 64;

@@ -98,7 +98,6 @@ void OptionsMenu(SDL_Renderer** Renderer, int& MusicIsOn, int& SoundIsOn, Mix_Ch
 			}
 		}
 		TextureDisplay(Renderer);
-		//SDL_Delay(16);
 	}
 
 	SDL_DestroyTexture(MusicOFF);
@@ -159,7 +158,12 @@ void LoadNewGame(Entity* Player, int& MapX, int& MapY)
 	Player->y = 384;
 	Player->dx = 16;
 	Player->dy = 16;
+	Player->Coins = 0;
+	Player->fightAbility = false;
+	Player->fireAbility = false;
+	Player->pickedBombs = false;
 	Player->Lives = 5;
+	Player->Bombs = 0;
 	Player->Damage = 1;
 	Player->Arrows = 0;
 }

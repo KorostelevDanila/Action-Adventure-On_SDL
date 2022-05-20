@@ -96,6 +96,7 @@ int main(int args, char* argc[]) {
 	OverworldMapTextures.Wall = TextureLoad("Game Files//WallOverworld.png", &Main_Renderer);
 	OverworldMapTextures.Rock = TextureLoad("Game Files//Rock.png", &Main_Renderer);
 	OverworldMapTextures.CaveEntrance = TextureLoad("Game Files//CaveEnter.png", &Main_Renderer);
+	//OverworldMapTextures.Void = TextureLoad("Game Files//OverworldVoid.png", &Main_Renderer);
 
 	Map Caves[3];
 	if (!LoadCave(Caves, "Game Files//Map//CaveMaps.txt")) {
@@ -112,6 +113,7 @@ int main(int args, char* argc[]) {
 	LegacyDungeonTexture.Wall = TextureLoad("Game Files//LegacyDungeonWall.png", &Main_Renderer);
 	LegacyDungeonTexture.Rock = TextureLoad("Game Files//Rock.png", &Main_Renderer);
 	LegacyDungeonTexture.Button = TextureLoad("Game Files//Button.png", &Main_Renderer);
+	LegacyDungeonTexture.Void = TextureLoad("Game Files//LegacyDungeonVoid.png", &Main_Renderer);
 
 	SDL_Texture* Hints[3];
 	Hints[0] = TextureLoad("Game Files//Hint0.png", &Main_Renderer);
